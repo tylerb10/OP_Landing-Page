@@ -39,7 +39,8 @@ a {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    align-items: center;
+    padding: 10px 175px 10px 100px;
     background-color: #1F2937;
     color: #E5E7EB;
 
@@ -49,4 +50,21 @@ a {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder; 
+}
+
+.left-text {
+    width: 30%;
+}
+
+.button-1 {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	font-size:18px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
 }
