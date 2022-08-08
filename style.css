@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
 .header {
@@ -50,6 +51,7 @@ a {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder; 
+    margin: 0;
 }
 
 .left-text {
@@ -72,6 +74,9 @@ a {
 
 .middle-title {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .middle-img {
@@ -87,5 +92,26 @@ a {
 .middle-p {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px 50px 100px;
+    padding: 0 100px 25px 100px;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    padding: 25px 150px;
+}
+
+.quote-box p:nth-of-type(1) {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+
+
+}
+
+.quote-box p:nth-of-type(2) {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
 }
